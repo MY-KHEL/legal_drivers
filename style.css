@@ -1,3 +1,40 @@
 body{
-    background-color: #07074d;
+    background-color:#b4b3b3;
+    color:#28a475;
+    font-family: 'Cabin' , sans-serif;
+}
+nav a{
+    color:#28a475;
+    font-size:1.4rem;
+}
+.navbar-brand{
+    font-size: 2rem;
+    font-weight: bolder;
+    
+}
+.dropdown-menu{
+    width:100%
+}
+.dropdown-item{
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.4rem;
+}
+.dropdown-item:active{
+background-color: transparent;
+color: black;
+}
+
+.modal-header h5{
+    font-size: 1.4rem;
+    text-align: center;
+}
+.modal-body{
+    margin:0%;
+    padding:0%;
+    padding-bottom:.7rem;
+}
+.text-content{
+    text-transform: uppercase;
+    font-weight: bolder;
+
 }
