@@ -1,0 +1,198 @@
+html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Cabin', sans-serif;
+    background: #eeeeee;
+    padding-top: 100px;
+  }
+
+
+  /*===== css =====*/
+  .topbar {
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px gray;
+    padding: 0px 50px 20px 50px;
+  }
+
+  .topbar h2 {
+    text-align: center;
+    font-weight: bold;
+  }
+
+  .topbar h4 {
+    /* text-align: left; */
+    color: #7e7e7e;
+  
+
+  }
+.information{
+  margin-left: 270px;
+}
+
+  .circle {
+    width: 180px;
+    height: 180px;
+    background: #2ad52e;
+    margin: 0px auto;
+    border-radius: 100px;
+    margin-top: -90px;
+  }
+ 
+  .rate {
+    text-align: center;
+    color: #26d12a;
+  }
+
+  /*=====black css =====*/
+  .black-box {
+    width: 100%;
+    height: auto;
+    float: left;
+    background: black;
+    padding: 10px 0px 10px 0px;
+    color: #fff;
+    margin: 20px 0px 10px 0px;
+  }
+
+  .black-box h4 {
+    font-size: 36px;
+  }
+
+  /*===== css =====*/
+  .review {
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #fff;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px gray;
+    padding: 30px 10px 30px 50px;
+  }
+
+  .review h5 {
+    font-weight: bold;
+  }
+
+  .review h6 {
+    text-align: right;
+    padding-right: 50px;
+  }
+
+  .review p {
+    color: gray;
+    font-size: 24px;
+  }
+
+  .review i {
+    color: #26d12a;
+  }
+
+  /*=====all-icon css =====*/
+  .all-icon {
+    width: 100%;
+    height: auto;
+    float: left;
+    background: #fff;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 5px gray;
+    padding: 50px 0px 10px 0px;
+  }
+
+  .all-icon img {
+    padding: 0px;
+    border-radius: 100px;
+    margin: 0px auto;
+
+  }
+
+  .bdr-red {
+    border: 4px solid red;
+  }
+
+  .bdr-blue {
+    border: 4px solid blue;
+  }
+
+  .bdr-green {
+    border: 4px solid #2ad52e;
+  }
+
+  .bdr-yellow {
+    border: 4px solid yellow;
+  }
+
+  .all-icon h4 {
+    text-align: center;
+    font-size: 28px;
+    margin-bottom: 0px;
+
+  }
+
+  .all-icon h3 {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 40px;
+    font-size: 30px;
+    margin-top: 0px;
+  }
+
+  /*===== css =====*/
+  /*===== Mobile, tab and medium & small device =====*/
+  @media screen and (max-width: 768px) {
+
+    /*===== start Mobile css =====*/
+    .topbar {
+      padding: 0px 50px 20px 50px;
+    }
+
+    .topbar h2 {
+      font-size: 22px;
+    }
+    .information{
+      margin-left: 0px;
+    }
+    .topbar h4 {
+      
+      font-size: 16px;
+    }
+
+    .circle {
+      width: 150px;
+      height: 150px;
+    }
+
+    .rate {
+      text-align: center;
+      color: #26d12a;
+    }
+
+    .review {
+      padding: 30px 10px 30px 10px;
+    }
+
+    .review h5 {
+      font-size: 14px;
+    }
+
+    .review h6 {
+      font-size: 12px;
+    }
+
+    .review p {
+      font-size: 12px;
+    }
+
+    .review i {
+      font-size: 10px;
+    }
+  }
